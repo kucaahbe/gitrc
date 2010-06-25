@@ -1,0 +1,16 @@
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+[user]
+	name = kucaahbe
+	email = powta@ukr.net
+[core]
+	excludesfile = /home/kuca/.gitignore
+	pager=less -FXRS
+[alias]
+  	co=checkout
+	s=status
+	d=diff
+	c=commit
