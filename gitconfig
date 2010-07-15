@@ -5,7 +5,7 @@
 	interactive = auto
 [user]
 	name = kucaahbe
-	email = powta@ukr.net
+	email = kucaahbe@ukr.net
 [core]
 	excludesfile = /home/kuca/.gitignore
 	pager=less -FXRS
