@@ -13,4 +13,7 @@
   	co=checkout
 	s=status
 	d=diff
+	dw=diff --color-words
 	c=commit
+[merge]
+	tool=vimdiff
