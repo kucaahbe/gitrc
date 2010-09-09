@@ -3,17 +3,13 @@
 	status = auto
 	branch = auto
 	interactive = auto
-[user]
-	name = kucaahbe
-	email = kucaahbe@ukr.net
 [core]
-	excludesfile = /home/kuca/.gitignore
+	excludesfile = ~/.gitignore
 	pager=less -FXRS
 [alias]
   	co=checkout
 	s=status
-	d=diff
-	dw=diff --color-words
-	c=commit
+	diff-words=diff --color-words
+	log-stat=log --stat=160,300
 [merge]
 	tool=vimdiff
