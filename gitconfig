@@ -13,3 +13,5 @@
 	log-stat=log --stat=160,300
 [merge]
 	tool=vimdiff
+
+sdfsf
