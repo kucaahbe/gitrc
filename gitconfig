@@ -11,5 +11,6 @@
 	s=status
 	diff-words=diff --color-words
 	log-stat=log --stat=160,300
+	l=log --decorate=full
 [merge]
 	tool=vimdiff
