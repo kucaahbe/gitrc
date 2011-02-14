@@ -3,14 +3,21 @@
 	status = auto
 	branch = auto
 	interactive = auto
+	grep = true
 [core]
 	excludesfile = ~/.gitignore
 	pager=less -FXRS
+	editor = vim +0
 [alias]
   	co=checkout
 	s=status
 	diff-words=diff --color-words
 	log-stat=log --stat=160,300
 	l=log --decorate=full
+        gr=grep -n
 [merge]
 	tool=vimdiff
+[clean]
+	requireForce = false
+[push]
+	default = tracking
