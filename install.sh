@@ -1,10 +1,7 @@
 #!/bin/bash
 for f in `ls -1`
 do
-  if [ "./$f" != $0 ]
-  then
-    cp -f $PWD/$f ~/.$f
-  fi
+  [ "./$f" != $0 ] && cp -f $PWD/$f ~/.$f
 done
 
 echo "Enter username:"
