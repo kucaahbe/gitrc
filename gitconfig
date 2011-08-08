@@ -1,23 +1,27 @@
+# vim:ft=gitconfig
+
 [color]
-	diff = auto
-	status = auto
-	branch = auto
-	interactive = auto
-	grep = true
+        diff = auto
+        status = auto
+        branch = auto
+        interactive = auto
+        grep = auto
 [core]
-	excludesfile = ~/.gitignore
-	pager=less -FXRS
-	editor = vim +0
+        excludesfile = ~/.gitignore
+        pager=less -FXRS
+        editor = vim +0
 [alias]
-  	co=checkout
-	s=status
-	diff-words=diff --color-words
-	log-stat=log --stat=160,300
-	l=log --decorate=full
+        co=checkout
+        s=status
+        d=diff
+        dw=diff --color-words
+        dc=diff --cached
+        log-stat=log --stat=160,300
+        l=log --decorate=full
         gr=grep -n
 [merge]
-	tool=vimdiff
+        tool=vimdiff
 [clean]
-	requireForce = false
+        requireForce = false
 [push]
-	default = tracking
+        default = tracking
