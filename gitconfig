@@ -9,7 +9,7 @@
 [core]
         excludesfile = ~/.gitignore
         pager=less -FXRS
-        editor = vim +0
+        editor = gvim +0
 [alias]
         co=checkout
         s=status
@@ -20,7 +20,7 @@
         l=log --decorate=full
         gr=grep -n
 [merge]
-        tool=vimdiff
+        tool=gvimdiff
 [clean]
         requireForce = false
 [push]
