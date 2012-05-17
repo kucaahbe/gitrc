@@ -1,8 +1,7 @@
 #!/bin/bash
-for f in `ls -1`
-do
-  [ "./$f" != $0 ] && cp -f $PWD/$f ~/.$f
-done
+
+cp -fv $PWD/gitconfig ~/.gitconfig
+ln -sfv $PWD/gitignore ~/.gitignore
 
 echo "Enter username:"
 read name
