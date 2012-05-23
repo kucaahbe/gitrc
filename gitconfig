@@ -20,7 +20,7 @@
         l=log --decorate=full
         gr=grep -n
 [merge]
-        tool=gvimdiff -f
+        tool=gvimdiff
 [clean]
         requireForce = false
 [push]
