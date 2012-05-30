@@ -25,3 +25,5 @@
         requireForce = false
 [push]
         default = tracking
+[include]
+        path = ~/.gituser
