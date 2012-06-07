@@ -8,10 +8,8 @@ read name
 echo "Enter email:"
 read email
 
-template="
-# vim:ft=gitconfig
+template=$"# vim:ft=gitconfig
 [user]
-	name = $name
-	email = $email
-"
-echo $template > ~/.gituser
+        name = $name
+        email = $email"
+echo "$template" > ~/.gituser
