@@ -12,4 +12,4 @@ template=$"# vim:ft=gitconfig
 [user]
         name = $name
         email = $email"
-echo "$template" > ~/.gituser
+echo "$template" > ~/.gitconfig.local
