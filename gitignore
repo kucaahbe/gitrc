@@ -1,6 +1,7 @@
 # vim files
 *~
 .*.sw[po]
+/Session.vim
 # kde filemanager files
 .directory
 /**/.directory
