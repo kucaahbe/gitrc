@@ -5,3 +5,5 @@
 # kde filemanager files
 .directory
 /**/.directory
+# ctags
+tags
