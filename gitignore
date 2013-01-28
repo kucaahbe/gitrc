@@ -7,3 +7,5 @@
 /**/.directory
 # ctags
 tags
+# irb-related files
+.irb*
