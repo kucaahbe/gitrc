@@ -9,3 +9,5 @@
 tags
 # irb-related files
 .irb*
+# vagrant
+/.vagrant
