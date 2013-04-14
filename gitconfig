@@ -1,11 +1,9 @@
 # vim:ft=gitconfig
 
 [color]
-        diff = auto
-        status = auto
-        branch = auto
-        interactive = auto
-        grep = auto
+        ui = auto
+[color "diff"]
+	meta = white magenta bold
 [core]
         excludesfile = ~/.gitignore
         pager=less -FXRS
