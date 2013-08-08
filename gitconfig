@@ -25,6 +25,7 @@
         l=log --decorate=full
         g=grep
         ack="grep --break --heading -A3 -B3"
+        rmbranch = "!f(){ git branch -d ${1} && git push origin --delete ${1}; };f"
 [merge]
         tool=gvimdiff
 [clean]
