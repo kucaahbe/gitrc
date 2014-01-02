@@ -21,7 +21,7 @@
         d=diff
         dw=diff --color-words
         dc=diff --cached
-        log-stat=log --stat=160,300
+        recommit=commit --amend --reuse-message=HEAD
         l=log --decorate=full
         g=grep
         ack="grep --break --heading -A3 -B3"
