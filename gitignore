@@ -11,3 +11,5 @@ tags
 .irb*
 # vagrant
 /.vagrant
+# OSX Desktop Service Store files
+.DS_Store
