@@ -13,3 +13,5 @@ tags
 /.vagrant
 # OSX Desktop Service Store files
 .DS_Store
+# libre/open office lock files
+.~lock.*
