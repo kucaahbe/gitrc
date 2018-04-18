@@ -4,6 +4,9 @@
         pager=less -FXRS
         editor = gvim +0 -f
 
+[pager]
+        status = true
+
 [color]
         ui = auto
         grep = auto
