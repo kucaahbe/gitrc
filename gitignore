@@ -1,6 +1,7 @@
 # vim files
 *~
-.*.sw[po]
+.*.sw[powmn]
+.sw[powmn]
 /Session.vim
 # kde filemanager files
 .directory
